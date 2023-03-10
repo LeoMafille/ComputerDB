@@ -13,5 +13,5 @@ import org.junit.platform.suite.api.Suite;
 @SelectClasspathResource("computerdatabase")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "me.jvt.cucumber.report.PrettyReports:target/cucumber" )
 public class CucumberAcceptanceTests {
-
+	//Lance tous les scénarios des features j'ai pas eu le temps de lire la suite mais c'est franchement pas grave
 }
